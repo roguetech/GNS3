@@ -1,4 +1,5 @@
 644:1000:1000:/root/.gns3_perms
 644:1000:1000:/root/.bashrc
 644:1000:1000:/root/.profile
+600:0:0:/root/.bash_history
 700:1000:1000:/root

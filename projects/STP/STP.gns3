@@ -2,14 +2,14 @@
     "auto_close": true,
     "auto_open": false,
     "auto_start": false,
-    "grid_size": 0,
+    "grid_size": 75,
     "name": "STP",
     "project_id": "abdf85a0-034f-4ca9-bdd3-0c8653c4f977",
     "revision": 8,
     "scene_height": 1000,
     "scene_width": 2000,
     "show_grid": false,
-    "show_interface_labels": false,
+    "show_interface_labels": true,
     "show_layers": false,
     "snap_to_grid": false,
     "supplier": null,
@@ -70,8 +70,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "Gi0/0",
-                            "x": 25,
-                            "y": -16
+                            "x": 26,
+                            "y": -37
                         },
                         "node_id": "abec5636-9644-42f1-9267-752826dd63c7",
                         "port_number": 0
@@ -194,8 +194,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "Gi0/1",
-                            "x": 26,
-                            "y": -16
+                            "x": 35,
+                            "y": -49
                         },
                         "node_id": "ef0609c2-d338-4ef5-bd9e-29455bf7328f",
                         "port_number": 0
@@ -318,8 +318,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "Gi0/3",
-                            "x": 61,
-                            "y": 5
+                            "x": 62,
+                            "y": 6
                         },
                         "node_id": "ef0609c2-d338-4ef5-bd9e-29455bf7328f",
                         "port_number": 0
@@ -690,8 +690,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "Gi1/0",
-                            "x": -14,
-                            "y": 18
+                            "x": -68,
+                            "y": 15
                         },
                         "node_id": "abec5636-9644-42f1-9267-752826dd63c7",
                         "port_number": 0
@@ -956,8 +956,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Core2",
-                    "x": -22,
-                    "y": -25
+                    "x": -89,
+                    "y": -50
                 },
                 "name": "Core2",
                 "node_id": "abec5636-9644-42f1-9267-752826dd63c7",
@@ -1519,9 +1519,9 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "651de43192482676f19e73f0003bb3dd6b0a35c9428e4d70bcda0c82a78f1b0b",
-                    "environment": null,
-                    "extra_hosts": null,
+                    "container_id": "a315f28e845c06269851acee48b69d442f06c078038c1db757846560147a243d",
+                    "environment": "",
+                    "extra_hosts": "",
                     "image": "gns3/ubuntu:xenial",
                     "start_command": null
                 },
@@ -1555,9 +1555,9 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "4d033c034c047cf5a3642a1019212c80059fcfafef803c64edbb445b2173a553",
-                    "environment": null,
-                    "extra_hosts": null,
+                    "container_id": "a7c68f68897fe5bfef34cc02117665a986734e8eb46df588b8617ab494e075ab",
+                    "environment": "",
+                    "extra_hosts": "",
                     "image": "gns3/ubuntu:xenial",
                     "start_command": null
                 },
@@ -1572,5 +1572,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.1.10",
-    "zoom": 100
+    "zoom": 200
 }

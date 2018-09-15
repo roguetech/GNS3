@@ -2,3 +2,5 @@ appliances/
 configs/
 images/
 symbols/
+projects/*/project-files/captures/
+projects/*/tmp/
